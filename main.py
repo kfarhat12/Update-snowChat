@@ -9,8 +9,8 @@ from snowflake.snowpark.exceptions import SnowparkSQLException
 
 from chain import load_chain
 
-# from utils.snow_connect import SnowflakeConnection
-from snowchat_ui import StreamlitUICallbackHandler, message_func
+from utils.snow_connect import SnowflakeConnection
+from utils.snowchat_ui import StreamlitUICallbackHandler, message_func
 from snowddl import Snowddl
 
 warnings.filterwarnings("ignore")
