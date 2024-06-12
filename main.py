@@ -11,7 +11,7 @@ from chain import load_chain
 
 from utils.snow_connect import SnowflakeConnection
 from utils.snowchat_ui import StreamlitUICallbackHandler, message_func
-from snowddl import Snowddl
+from utils.snowddl import Snowddl
 
 warnings.filterwarnings("ignore")
 chat_history = []
